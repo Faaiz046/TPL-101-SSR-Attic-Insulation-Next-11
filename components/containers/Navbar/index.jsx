@@ -52,7 +52,7 @@ const Navbar = ({
   );
 const logo_text="Attic Insulation"
   return (
-    <FullContainer className=" sticky top-0 z-20 bg-primary text-white">
+    <FullContainer className=" sticky top-0 z-30 bg-primary text-white">
       <nav className="flex w-11/12 max-w-screen-2xl grid-cols-2 items-center justify-between lg:grid lg:grid-cols-3 lg:py-0">
         <div className="flex items-center">
           <div className=" items-center text-left text-primary lg:flex">

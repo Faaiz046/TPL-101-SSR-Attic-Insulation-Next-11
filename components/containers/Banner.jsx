@@ -298,7 +298,7 @@ export default function Banner({ data, params, images, BASE_URL }) {
           textClass="font-extrabold bg-primary text-white relative top-1 z-10 p-1 -left-6 pl-8 pr-6 rounded-r-3xl -ml-4 font-exo2 text-[22px] font-black"
             className="text- gap-0 bg-transparent px-5 text-left lg:px-5"
             data={data.phone}
-            phoneClass="bg-primary text-white p-[30px] md:p-6 rounded-full relative"
+            phoneClass="bg-primary text-white p-[30px] md:p-6 rounded-full relative z-20"
             phoneIconClass="h-5 lg:h-7"
             callClass="bg-black text-white relative -left-8 rounded-tr-lg z-0 rounded-tr-3xl w-11/12 h-7 font-exo2 text-xl font-medium"
             icon1={icnSVG}
